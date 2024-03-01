@@ -8,7 +8,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #0F1624;
+  /* background-color: #0F1624; */
 }
 
 code {
@@ -40,7 +40,29 @@ code {
   background-origin: border-box;
   background-clip: content-box,border-box;
 }
+.hiii{
+  border: 0.5px solid #0F1624;
+  border-radius: 70px;
+  border: double 0px transparent;
+  background-image:linear-gradient(#b6b4b4,#b6b4b4),
+  linear-gradient(90deg, #ffd49c , #7a87fb ) ;
+  background-origin: border-box;
+  background-clip: content-box,border-box;
+}
+.img{
+  border: 0.5px solid #0F1624;
+  border-radius: 100%;
+  border: double 5px transparent;
+  background-image:linear-gradient(#b6b4b4,#b6b4b4),
+  linear-gradient(90deg, #ffd49c , #7a87fb ) ;
+  background-origin: border-box;
+  background-clip: content-box,border-box;
+}
 .out{
   outline: white;
   -webkit-text-stroke: 0.5px white;
+}
+.outt{
+  outline: black;
+  -webkit-text-stroke: 0.5px black;
 }
