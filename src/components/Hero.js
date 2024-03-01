@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import {Image} from "./Image";
 import { Typewriter } from "react-simple-typewriter";
 import { useDark } from "../context/Darkmode";
-
+import resume from "../assets/resume.pdf"
 const Hero = () => {
     const {dark}=useDark()
     const downloadFileURL=(url)=>{
