@@ -17,7 +17,7 @@ const Hero = () => {
         <>
             {/* laptop view */}
             <div className="max-sm:hidden md:block">
-                <div className="flex justify-around  h-[60vh] items-center">
+                <div className="flex justify-around  h-[60vh] items-center lg:mb-12">
 
                     <div>
                         <span className="flex flex-col justify-center gap-3  w-[300px] lg:w-[450px] text-xl lg:text-3xl line-clamp-4">
