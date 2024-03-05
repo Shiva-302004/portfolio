@@ -34,7 +34,7 @@ const Form = () => {
     }
     return (
         <div className={`w-[90vw] md:w-[700px] lg:w-[800px] ${!dark?"bg-[#1F293E] text-white":"bg-[#b6b4b4] text-black font-medium"} rounded-lg `}>
-            <div className='relative flex  justify-center pb-2'>
+            <div className='relative flex  justify-center pb-2 mt-6'>
                 <span className={`absolute text-center text-transparent ${!dark ? "out" : "outt"} font-extrabold text-3xl  opacity-30 md:text-4xl z-0`} >Contact me</span>
                 <span className={`absolute text-center text-[1.785rem] md:text-3xl font-extrabold ${!dark ? "text-white" : "text-black"}  -mt-1 md:mt-1 ml-2 z-0`}>Contact me</span>
             </div>
@@ -48,7 +48,7 @@ const Form = () => {
                 <input type="text" name='subject' value={userinput.subject} placeholder='Subject'  onChange={onChange} className='mt-2 w-[80vw] px-2 h-[40px] md:ml-2 md:w-[300px] text-black rounded-md' />
                 </div>
                 <textarea cols={10} rows={100}   name='message' value={userinput.message} placeholder='Message'  onChange={onChange} className='mt-2 text-black w-[80vw] px-2 h-[200px] md:w-[606px] rounded-md'/>
-                <Link className="bg-gradient-to-l from-[#ffd49c] to-[#7a87fb] px-2 rounded-full ml-2 mt-3 mb-3" onClick={onClick}>Contact me</Link>
+                <Link className="bg-gradient-to-l from-[#ffd49c] to-[#7a87fb] px-2 rounded-full ml-2 mt-3 mb-3 text-black" onClick={onClick}>Contact me</Link>
             </div>
         </div>
     )
