@@ -52,7 +52,7 @@ const TechnologiesUsed = () => {
                 </div>
                 <div className='mt-10 flex flex-col md:flex-row   md:pb-6 px-3'>
                     <div className='flex justify-around'>
-                        <img className="md:ml-6 lg:ml-12" src={nodejs} alt="node" />
+                        <img className="md:ml-6 lg:ml-12 h-[80px] w-[80px]" src={nodejs} alt="node" />
                         <img className="md:ml-6 lg:ml-12" src={bs} alt="bs" />
                         <img className="md:ml-6 lg:ml-12" src={vscode} alt="vscode" />
                     </div>
