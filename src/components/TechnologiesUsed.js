@@ -24,37 +24,37 @@ const TechnologiesUsed = () => {
             <div className='flex flex-col md:flex-row md:mt-16 md:items-center md:justify-center '>
                 <div className='mt-16 md:mt-10 flex flex-col md:flex-row    md:pb-6 px-3'>
                     <div className='flex justify-around'>
-                        <img className="ml-3" src={html} alt="html" />
-                        <img className="md:ml-6 lg:ml-12" src={css} alt="css" />
-                        <img className="md:ml-6 lg:ml-12" src={js} alt="js" />
+                        <img className="ml-3 w-[80px] h-[80px]" src={html} alt="html" />
+                        <img className="md:ml-6 lg:ml-12 w-[80px] h-[80px]" src={css} alt="css" />
+                        <img className="md:ml-6 lg:ml-12 w-[80px] h-[80px]" src={js} alt="js" />
                     </div>
                 </div>
                 <div className='mt-10 flex flex-col md:flex-row   md:pb-6 px-3'>
                     <div className='flex justify-around'>
-                        <img className="md:ml-6 lg:ml-12" src={react} alt="react" />
-                        <img className="md:ml-6 lg:ml-12" src={redux} alt="redux" />
-                        <img className="md:ml-6 lg:ml-12" src={tailwind} alt="tailwind" />
+                        <img className="md:ml-6 lg:ml-12 w-[80px] h-[80px]" src={react} alt="react" />
+                        <img className="md:ml-6 lg:ml-12 w-[80px] h-[80px]" src={redux} alt="redux" />
+                        <img className="md:ml-6 lg:ml-12 w-[80px] h-[80px]" src={tailwind} alt="tailwind" />
                     </div>
                 </div>
             </div>
             <div className='flex flex-col md:flex-row md:items-center md:justify-center'>
                 <div className='mt-10 flex flex-col md:flex-row   md:pb-6 px-3'>
                     <div className='flex justify-around'>
-                        <img className="md:ml-3" src={java} alt="java" />
-                        <img className="md:ml-6 lg:ml-12" src={git} alt="git" />
+                        <img className="md:ml-3 w-[80px] h-[80px]" src={java} alt="java" />
+                        <img className="md:ml-6 lg:ml-12 w-[80px] h-[80px]" src={git} alt="git" />
                         {
                             dark ?
-                                <img className="md:ml-6 lg:ml-12" src={github} alt="github" />
+                                <img className="md:ml-6 lg:ml-12 w-[80px] h-[80px]" src={github} alt="github" />
                                 :
-                                <img className="md:ml-6 lg:ml-12" src={gitlight} alt="github" />
+                                <img className="md:ml-6 lg:ml-12 w-[80px] h-[80px]" src={gitlight} alt="github" />
                         }
                     </div>
                 </div>
                 <div className='mt-10 flex flex-col md:flex-row   md:pb-6 px-3'>
                     <div className='flex justify-around'>
                         <img className="md:ml-6 lg:ml-12 h-[80px] w-[80px]" src={nodejs} alt="node" />
-                        <img className="md:ml-6 lg:ml-12" src={bs} alt="bs" />
-                        <img className="md:ml-6 lg:ml-12" src={vscode} alt="vscode" />
+                        <img className="md:ml-6 lg:ml-12 w-[80px] h-[80px]" src={bs} alt="bs" />
+                        <img className="md:ml-6 lg:ml-12 w-[80px] h-[80px]" src={vscode} alt="vscode" />
                     </div>
                 </div>
             </div>
