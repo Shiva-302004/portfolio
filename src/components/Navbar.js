@@ -79,9 +79,9 @@ const Navbar = () => {
                     <span className=" rounded-full p-[2px] mr-2 hii  my-1" onClick={() => setclick(!click)}>
                         {
                             click ? 
-                                <img src={cross} className="bg-[#1f1d1d] rounded-2xl w-[45px] h-[35px] mt-[1px] text-white" alt="" />
+                                <img src={cross} className="bg-[#1f1d1d] rounded-2xl w-[50px] h-[35px] mt-[1px] text-white" alt="" />
                                 :
-                                <img src={menu}  className="bg-[#1f1d1d] rounded-2xl w-[45px] h-[35px] mt-[1px]" alt="" />
+                                <img src={menu}  className="bg-[#1f1d1d] rounded-2xl w-[50px] h-[35px] mt-[1px]" alt="" />
                         }
 
                     </span>
